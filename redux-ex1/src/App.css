@@ -1,5 +1,16 @@
 .App {
   text-align: center;
+
+  background-color:lightblue;
+  width:100%;
+}
+body{
+  height: 100%;
+  background-image: url("PUNJAB.jpg"); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .App-logo {
@@ -14,6 +25,8 @@
 }
 
 .App-header {
+  background-color:#ccddff;
+  -min-height: 100vh;
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -35,4 +48,146 @@
   to {
     transform: rotate(360deg);
   }
+}
+.horizontal-layout {
+    background-color:#ccddff;
+  display: flex;
+  flex-direction: row
+}
+
+.continue-button{
+  height: 50px;
+      width: 390px;
+      margin-left: 10px;
+      margin-bottom: 20px;
+}
+
+.center-align {
+  display: flex;
+  flex-direction: row;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ margin-right: 150px;
+ -margin-left: 450px;
+}
+
+
+.outline{
+  outline: 1px solid black;
+      background-color: white;
+      margin-left: 350px;
+      width: 50%;
+      height: 40%;
+}
+.box{
+  opacity: 1;
+   top:40px;
+    width: 520px;
+      height: 400px;
+      margin: 20px auto;
+      border:1px solid black;
+      position: relative;
+      background-color: white;
+      border-radius: 10px;
+}
+.language-button {
+  -margin: 2px;
+  width:150px;
+  height:70px;
+  top:210px;
+  bottom:0px;
+  border-radius: 8px;
+ 
+}
+.b1{
+  position: absolute;
+  bottom:0px;
+  left:20px;
+  text-align: center;
+  background-color: white;
+}
+.b2{
+  position: absolute;
+  bottom:0px;
+  left:340px;
+  text-align: center;
+  background-color: white;
+  padding-left: 10px;
+}
+.b3{
+  position: absolute;
+   left:180px;
+  text-align: center;
+  background-color: white;
+}
+.ct{
+  top:300px;
+  -bottom:0px;
+  width:500px;
+  position: absolute;
+  -left:180px;
+  text-align: center;
+  background-color: orange;
+  -padding:10px;
+  left: 10px;
+  right:15px;
+  border-radius: 10px;
+}
+
+.title-align{
+  color:black;
+  display: flex;
+  flex-direction: row;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ margin-right: 150px;
+ margin-left: 30px;
+ position: absolute;
+ top:50px;
+ right:40px;
+}
+.languages{
+  top: 90px;
+  left: 130px;
+}
+
+.register-box{
+  top:40px;
+  width: 420px;
+    height: 500px;
+    margin: 20px auto;
+    border:1px solid black;
+    position: relative;
+    background-color: white;
+}
+
+.reg-button{
+  margin: 2px;
+  width:100px;
+  height:60px;
+  bottom:10px;
+  left:200px;
+  position: absolute;
+ text-align: center;
+ align-items: center;
+ -background-color: orange;
+ border-radius: 15px;
+}
+.reg-button:hover {
+  background: #ff9800;
+  color: white;
+}
+.container {
+  padding: 25px;
+  background-color: white;
+  width: 500px;
+    height: 550px;
+}
+input[type=text], input[type=password] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
 }
